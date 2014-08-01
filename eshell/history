@@ -1,0 +1,128 @@
+brew
+brew
+ls
+cd /usr/local/bin/
+ls
+./brew
+./brew update
+exit
+echo path
+echo $PATH
+export PATH=/usr/local/bin:$PATH
+echo $PATH
+source
+ls
+gcc 
+gcc -v
+eshell
+ls
+brew
+emacs
+bash
+ls
+exit
+ls
+ls -al
+brew
+gcc
+cd .emacs.d/
+ls
+-rw-r--r--   1 jaeyeun        staff         109 2014-06-29 18:51 server.py~-rw-r--r--   1 jaeyeun        staff       46906 2014-06-29 12:40 tutorial~
+ls
+wget https://gist.githubusercontent.com/mahata/3729471/raw/082c2f246ba2a847d4eecf273a9ef4ca646bc89e/eshell-path-env.el
+ls
+brew
+brew update
+brew upgrade
+gcc
+brew
+gcc -v
+brew linkapps
+gcc-4.8
+ls
+cd Documents/Projects/CuraEngine/
+ls
+ls
+rm -rf #*
+ls
+ls
+path
+set path
+bre
+brew
+exit
+ls
+cd Documents/
+ls
+brew
+brew update
+ls
+exit
+brew
+exit
+which python
+whereis python
+echo $PYTHONPATH
+brew
+brew
+cd /usr/local/bin/
+ls
+ruby
+ruby
+exit
+brew
+exit
+pyflakes 
+exit
+pyflakes
+brew
+exit
+brew
+echo $PATH
+brew
+ls
+echo $PATH
+ruby
+ls
+pyflakes
+ls
+cd Documents/Projects/
+ls
+ls -al
+open
+ls -al
+cd CuraEngine/
+ls
+ls -al
+cd src/
+ls
+rm -rf #main.cpp#
+ls -al
+ls
+ls -al
+ls
+c doc
+cd Documents/
+ls
+cd we
+cd ..
+ls
+brew
+ruby
+ls
+cd ..
+s
+ls
+cd printinpeace/
+ls
+python manage.py runserver
+ls
+ls -al
+mezzanine-project startapp order
+python manage.py startapp printers
+ls
+cd printers/
+ls
+cat views.py 
+cat models.py 
+emacsclient models.py 
