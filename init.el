@@ -8,7 +8,7 @@
 (add-to-list 'load-path' "~/.emacs.d/themes/")
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; If you edit it by hand, you could mess it up, so be carefu
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(ansi-term-color-vector
@@ -27,7 +27,8 @@
  )
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
-(linum-mode)
+(require 'linum)
+(global-linum-mode t)
 (require 'ido)
 (ido-mode t)
 (setenv "PATH" (concat "/usr/local/bin:" (getenv "PATH")))
@@ -56,5 +57,4 @@
   (setq elpy-default-minor-modes (delete 'flymake-mode elpy-default-minor-modes))
   (add-to-list 'elpy-default-minor-modes 'flycheck-mode)
 )
-
-(server-start)
+(global-unset-key (kbd "C-x C-c")) 
