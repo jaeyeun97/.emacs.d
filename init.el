@@ -1,4 +1,9 @@
-;;
+;;.emacs.d/init.el
+;;Author: Charlie Jae Yeun Yoon
+
+;;;;;;;;;;
+;; Macs ;;
+;;;;;;;;;;
 (setq mac-option-key-is-meta nil
       mac-command-key-is-meta t
       mac-command-modifier 'meta
@@ -6,6 +11,11 @@
 
 (add-to-list 'load-path' "~/.emacs.d/utils/")
 (add-to-list 'load-path' "~/.emacs.d/themes/")
+
+;;;;;;;;;;;;;;;
+;;Theme Setup;;
+;;;;;;;;;;;;;;;
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be carefu
@@ -27,12 +37,31 @@
  )
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
+
+;;;;;;;;;;;;;;;;;;;;;
+;;Line Number Setup;;
+;;;;;;;;;;;;;;;;;;;;;
+
 (require 'linum)
 (global-linum-mode t)
+
+;;;;;;;;;;;;;;;;;;;;
+;; Ido Mode Setup ;;
+;;;;;;;;;;;;;;;;;;;;
+
 (require 'ido)
 (ido-mode t)
+
+;;;;;;;;;;;;;;
+;; Set Path ;;
+;;;;;;;;;;;;;;
+
 (setenv "PATH" (concat "/usr/local/bin:" (getenv "PATH")))
 (load-file "~/.emacs.d/utils/eshell-path-env.el")
+
+;;;;;;;;;;;;;;;;;
+;;Smooth Scroll;;
+;;;;;;;;;;;;;;;;;
 
 (setq scroll-margin 1
       scroll-conservatively 0
@@ -42,19 +71,57 @@
       scroll-down-aggressively 0.01)
 (setq scroll-conservatively 10000)
 
+;;;;;;;;;;;;;;;;;
+;;Package Setup;;
+;;;;;;;;;;;;;;;;;
+
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
 			 ("melpa" . "http://melpa.milkbox.net/packages/")
+			 ("elpy" . "http://jorgenschaefer.github.io/packages/")
 			)
 )
 (package-initialize)
-(setq elpy-rpc-python-command "/usr/local/bin/python")
+
+;;;;;;;;;;;;;;;;
+;; Elpy Setup ;;
+;;;;;;;;;;;;;;;;
+
 (elpy-enable)
+(setq elpy-rpc-python-command "/usr/local/bin/python")
+(setq elpy-rpc-backend "rope")
 (define-key global-map (kbd "C-c o") 'iedit-mode)
 (define-key yas-minor-mode-map (kbd "C-c k") 'yas-expand)
 (elpy-use-ipython)
 
-;;(when (require 'flycheck nil t)
-;;  (setq elpy-default-minor-modes (delete 'flymake-mode elpy-default-minor-modes))
-;;  (add-to-list 'elpy-default-minor-modes 'flycheck-mode)
-;;)
-(global-unset-key (kbd "C-x C-c")) 
+(when (require 'flycheck nil t)
+ (setq elpy-modules (delete 'elpy-module-flymake elpy-modules))
+  (add-hook 'elpy-mode-hook 'flycheck-mode)
+)
+
+;;;;;;;;;;;;;;;;;;
+;;Web-mode Setup;;
+;;;;;;;;;;;;;;;;;;
+
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.tmpl\\'" . web-mode))
+
+(setq web-mode-engines-alist
+      '(("django"    . "\\.tmpl\\'"))
+)
+
+(setq web-mode-ac-sources-alist
+  '(("css" . (ac-source-css-property)))
+)
+
+;;;;;;;;;;;;;;;;
+;; Unset Kill ;;
+;;;;;;;;;;;;;;;;
+
+(global-unset-key (kbd "C-x C-c"))
+
+;;;;;;;;;;;;;;;;;;
+;; Server Start ;;
+;;;;;;;;;;;;;;;;;;
+
+(server-start)

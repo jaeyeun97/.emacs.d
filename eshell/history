@@ -1,67 +1,3 @@
-brew
-brew
-ls
-cd /usr/local/bin/
-ls
-./brew
-./brew update
-exit
-echo path
-echo $PATH
-export PATH=/usr/local/bin:$PATH
-echo $PATH
-source
-ls
-gcc 
-gcc -v
-eshell
-ls
-brew
-emacs
-bash
-ls
-exit
-ls
-ls -al
-brew
-gcc
-cd .emacs.d/
-ls
--rw-r--r--   1 jaeyeun        staff         109 2014-06-29 18:51 server.py~-rw-r--r--   1 jaeyeun        staff       46906 2014-06-29 12:40 tutorial~
-ls
-wget https://gist.githubusercontent.com/mahata/3729471/raw/082c2f246ba2a847d4eecf273a9ef4ca646bc89e/eshell-path-env.el
-ls
-brew
-brew update
-brew upgrade
-gcc
-brew
-gcc -v
-brew linkapps
-gcc-4.8
-ls
-cd Documents/Projects/CuraEngine/
-ls
-ls
-rm -rf #*
-ls
-ls
-path
-set path
-bre
-brew
-exit
-ls
-cd Documents/
-ls
-brew
-brew update
-ls
-exit
-brew
-exit
-which python
-whereis python
 echo $PYTHONPATH
 brew
 brew
@@ -126,3 +62,67 @@ ls
 cat views.py 
 cat models.py 
 emacsclient models.py 
+ls -al
+cd. .
+ls
+cd ..
+cd ..
+ls
+pwd
+python -v
+which python
+cd Documents/Projects/
+ls
+cd PrintInPeace/
+ls
+cd printinpeace/
+ls
+ec __init__.pyc
+emacsclient __init__.pyc
+zsh
+ls
+cd auth/
+ls
+cd ..
+l
+emacsclient -n __init__.pyc
+emacsclient -n __init__.py
+zsh
+cd ~/.emacs.d/
+ls
+cd elpa/
+ls
+ls
+ls
+zsh
+ls
+cp layout.html layout.jinja2
+ls
+rm -rf *.html
+ls -al
+rm -rf layout.html\~ 
+ls
+cd ..
+ls
+cd printers/
+cd tg
+cd templates/
+ls
+cd printers/
+l
+sls
+ls
+ls
+rm -rf *
+ls
+cd ..
+cd .
+ls
+cd ..
+ls
+cd templates/
+ls
+cd printers/
+ls
+touch index.jinja2
+cd ..
