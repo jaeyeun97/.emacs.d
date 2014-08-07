@@ -43,7 +43,7 @@
 (setq scroll-conservatively 10000)
 
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-			 ("melpa-stable" . "http://melpa-stable.milkbox.net/packages/")
+			 ("melpa" . "http://melpa.milkbox.net/packages/")
 			)
 )
 (package-initialize)
@@ -53,8 +53,8 @@
 (define-key yas-minor-mode-map (kbd "C-c k") 'yas-expand)
 (elpy-use-ipython)
 
-(when (require 'flycheck nil t)
-  (setq elpy-default-minor-modes (delete 'flymake-mode elpy-default-minor-modes))
-  (add-to-list 'elpy-default-minor-modes 'flycheck-mode)
-)
+;;(when (require 'flycheck nil t)
+;;  (setq elpy-default-minor-modes (delete 'flymake-mode elpy-default-minor-modes))
+;;  (add-to-list 'elpy-default-minor-modes 'flycheck-mode)
+;;)
 (global-unset-key (kbd "C-x C-c")) 
