@@ -1,128 +1,128 @@
-echo $PYTHONPATH
-brew
-brew
-cd /usr/local/bin/
-ls
-ruby
-ruby
-exit
-brew
-exit
-pyflakes 
-exit
-pyflakes
-brew
-exit
-brew
-echo $PATH
-brew
-ls
-echo $PATH
-ruby
-ls
-pyflakes
-ls
-cd Documents/Projects/
-ls
-ls -al
-open
-ls -al
-cd CuraEngine/
-ls
-ls -al
-cd src/
-ls
-rm -rf #main.cpp#
-ls -al
-ls
-ls -al
-ls
-c doc
-cd Documents/
-ls
-cd we
-cd ..
-ls
-brew
-ruby
-ls
-cd ..
-s
-ls
-cd printinpeace/
-ls
-python manage.py runserver
-ls
-ls -al
-mezzanine-project startapp order
-python manage.py startapp printers
-ls
-cd printers/
-ls
-cat views.py 
-cat models.py 
-emacsclient models.py 
-ls -al
-cd. .
-ls
 cd ..
 cd ..
 ls
-pwd
-python -v
-which python
+cd ..
+ls
+pypy run.py 
+cd ..
+cd ..
+cd ..
+pypy run.py 
+pypy run.py 
+pypy run.py 
+pypy run.py 
+pypy run.py 
+pypy run.py 
+pypy run.py 
+pypy run.py 
+pypy run.py 
+pypy run.py 
+pypy run.py 
+ls
+cd Documents/Projects/j
 cd Documents/Projects/
 ls
 cd PrintInPeace/
 ls
 cd printinpeace/
-ls
-ec __init__.pyc
-emacsclient __init__.pyc
-zsh
-ls
-cd auth/
-ls
 cd ..
-l
-emacsclient -n __init__.pyc
-emacsclient -n __init__.py
-zsh
-cd ~/.emacs.d/
-ls
-cd elpa/
+pypy run.py 
 ls
 ls
-ls
-zsh
-ls
-cp layout.html layout.jinja2
-ls
-rm -rf *.html
 ls -al
-rm -rf layout.html\~ 
+cp printinpeace/config.py .
+ls
+cd printinpeace/
+ls
+rm -rf config.py app.db 
 ls
 cd ..
 ls
-cd printers/
-cd tg
-cd templates/
+ls
 ls
-cd printers/
-l
-sls
-ls
-ls
-rm -rf *
+git status
+git commit -a
+git push
 ls
 cd ..
+ls
+cd PrintInPeace/
+ls
+ls -al
+vim config.py
+clear
+clear
+clean
+ls
+cat config.py
+cat localconfig.py
+cd printinpeace/
+ls
+ls
+ls
 cd .
 ls
 cd ..
 ls
+~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                      ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                            ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       Type  :quit<Enter>  to exit Vimls:quit
+ls
+ls
+git status
+git add .
+git commit -a
+ls
+rm -rf to 
+ls
+ls -al
+git status
+git add .
+git commit -ait
+git status
+git commit -a
+ls
+git push
+git push
+ls
+cd printinpeace/
+ls
 cd templates/
 ls
-cd printers/
-ls
-touch index.jinja2
 cd ..
+ls
+cd st
+cd static/
+ls
+cd css/
+ls
+wget https://raw.githubusercontent.com/goodybag/bootstrap-notify/master/js/bootstrap-notify.js
+ls
+mv bootstrap-notify.js ../js/
+ls
+wget https://raw.githubusercontent.com/goodybag/bootstrap-notify/master/css/bootstrap-notify.css
+ls
+git status
+git add .
+git commit -a
+cd ..
+cd ..
+cd ..
+git add .
+git status
+git commit -a
+ls
+git status
+git commit -a
+git push
+git push
+git push
+git commit -a
+git push
+git push
+ls
+git remote
+git remote origin
+cd ..
+cd ..
+git status
+git commit -a
+git push
